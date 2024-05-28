@@ -1,0 +1,21 @@
+# ninja log v5
+1	43	7386063743503640	sdl2-populate-prefix/src/sdl2-populate-stamp/sdl2-populate-mkdir	b9f62e4904ebd301
+2994	3032	7386063773389760	C:/Users/tomek/Desktop/Studia/Podstawy Programowania/tp_projekt_4/out/build/x64-Debug/SDL2_gfx/sdl2-subbuild/sdl2-populate-prefix/src/sdl2-populate-stamp/sdl2-populate-patch	814d66fc10e8a741
+1	43	7386063743503640	C:/Users/tomek/Desktop/Studia/Podstawy Programowania/tp_projekt_4/out/build/x64-Debug/SDL2_gfx/sdl2-subbuild/sdl2-populate-prefix/src/sdl2-populate-stamp/sdl2-populate-mkdir	b9f62e4904ebd301
+43	2950	7386063772564566	sdl2-populate-prefix/src/sdl2-populate-stamp/sdl2-populate-download	2000d6cceac26f7
+43	2950	7386063772564566	C:/Users/tomek/Desktop/Studia/Podstawy Programowania/tp_projekt_4/out/build/x64-Debug/SDL2_gfx/sdl2-subbuild/sdl2-populate-prefix/src/sdl2-populate-stamp/sdl2-populate-download	2000d6cceac26f7
+2950	2994	7386063773004580	sdl2-populate-prefix/src/sdl2-populate-stamp/sdl2-populate-update	c0689fcff3b81a6
+2950	2994	7386063773004580	C:/Users/tomek/Desktop/Studia/Podstawy Programowania/tp_projekt_4/out/build/x64-Debug/SDL2_gfx/sdl2-subbuild/sdl2-populate-prefix/src/sdl2-populate-stamp/sdl2-populate-update	c0689fcff3b81a6
+2994	3032	7386063773389760	sdl2-populate-prefix/src/sdl2-populate-stamp/sdl2-populate-patch	814d66fc10e8a741
+3032	3068	7386063773749757	sdl2-populate-prefix/src/sdl2-populate-stamp/sdl2-populate-configure	ea2e402c70ce4fbc
+3032	3068	7386063773749757	C:/Users/tomek/Desktop/Studia/Podstawy Programowania/tp_projekt_4/out/build/x64-Debug/SDL2_gfx/sdl2-subbuild/sdl2-populate-prefix/src/sdl2-populate-stamp/sdl2-populate-configure	ea2e402c70ce4fbc
+3104	3140	7386063774474959	C:/Users/tomek/Desktop/Studia/Podstawy Programowania/tp_projekt_4/out/build/x64-Debug/SDL2_gfx/sdl2-subbuild/sdl2-populate-prefix/src/sdl2-populate-stamp/sdl2-populate-install	633715c375451e3e
+3068	3104	7386063774109826	sdl2-populate-prefix/src/sdl2-populate-stamp/sdl2-populate-build	614db12b4be87c46
+3068	3104	7386063774109826	C:/Users/tomek/Desktop/Studia/Podstawy Programowania/tp_projekt_4/out/build/x64-Debug/SDL2_gfx/sdl2-subbuild/sdl2-populate-prefix/src/sdl2-populate-stamp/sdl2-populate-build	614db12b4be87c46
+3104	3140	7386063774474959	sdl2-populate-prefix/src/sdl2-populate-stamp/sdl2-populate-install	633715c375451e3e
+3140	3175	7386063774824944	sdl2-populate-prefix/src/sdl2-populate-stamp/sdl2-populate-test	b860284856e19e46
+3140	3175	7386063774824944	C:/Users/tomek/Desktop/Studia/Podstawy Programowania/tp_projekt_4/out/build/x64-Debug/SDL2_gfx/sdl2-subbuild/sdl2-populate-prefix/src/sdl2-populate-stamp/sdl2-populate-test	b860284856e19e46
+3175	3224	7386063775315643	CMakeFiles/sdl2-populate-complete	51eced51a0922158
+3175	3224	7386063775315643	sdl2-populate-prefix/src/sdl2-populate-stamp/sdl2-populate-done	51eced51a0922158
+3175	3224	7386063775315643	C:/Users/tomek/Desktop/Studia/Podstawy Programowania/tp_projekt_4/out/build/x64-Debug/SDL2_gfx/sdl2-subbuild/CMakeFiles/sdl2-populate-complete	51eced51a0922158
+3175	3224	7386063775315643	C:/Users/tomek/Desktop/Studia/Podstawy Programowania/tp_projekt_4/out/build/x64-Debug/SDL2_gfx/sdl2-subbuild/sdl2-populate-prefix/src/sdl2-populate-stamp/sdl2-populate-done	51eced51a0922158
