@@ -39,7 +39,7 @@ events:
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.obj"
       
       The C compiler identification is MSVC, found in:
-        C:/Users/tomek/Desktop/Studia/Podstawy Programowania/tp_projekt_4/out/build/x64-Debug/CMakeFiles/3.28.3-msvc11/CompilerIdC/CMakeCCompilerId.exe
+        C:/Users/tomek/Desktop/Studia/Podstawy Programowania/Planar_Quadrotor/out/build/x64-Debug/CMakeFiles/3.28.3-msvc11/CompilerIdC/CMakeCCompilerId.exe
       
   -
     kind: "message-v1"
@@ -51,7 +51,7 @@ events:
     message: |
       Detecting C compiler /showIncludes prefix:
         main.c
-        Note: including file: C:\\Users\\tomek\\Desktop\\Studia\\Podstawy Programowania\\tp_projekt_4\\out\\build\\x64-Debug\\CMakeFiles\\ShowIncludes\\foo.h
+        Note: including file: C:\\Users\\tomek\\Desktop\\Studia\\Podstawy Programowania\\Planar_Quadrotor\\out\\build\\x64-Debug\\CMakeFiles\\ShowIncludes\\foo.h
         
       Found prefix "Note: including file: "
   -
@@ -85,7 +85,7 @@ events:
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.obj"
       
       The CXX compiler identification is MSVC, found in:
-        C:/Users/tomek/Desktop/Studia/Podstawy Programowania/tp_projekt_4/out/build/x64-Debug/CMakeFiles/3.28.3-msvc11/CompilerIdCXX/CMakeCXXCompilerId.exe
+        C:/Users/tomek/Desktop/Studia/Podstawy Programowania/Planar_Quadrotor/out/build/x64-Debug/CMakeFiles/3.28.3-msvc11/CompilerIdCXX/CMakeCXXCompilerId.exe
       
   -
     kind: "message-v1"
@@ -97,7 +97,7 @@ events:
     message: |
       Detecting CXX compiler /showIncludes prefix:
         main.c
-        Note: including file: C:\\Users\\tomek\\Desktop\\Studia\\Podstawy Programowania\\tp_projekt_4\\out\\build\\x64-Debug\\CMakeFiles\\ShowIncludes\\foo.h
+        Note: including file: C:\\Users\\tomek\\Desktop\\Studia\\Podstawy Programowania\\Planar_Quadrotor\\out\\build\\x64-Debug\\CMakeFiles\\ShowIncludes\\foo.h
         
       Found prefix "Note: including file: "
   -
@@ -109,8 +109,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/tp_projekt_4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-5kxepn"
-      binary: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/tp_projekt_4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-5kxepn"
+      source: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/Planar_Quadrotor/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-6ulvxo"
+      binary: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/Planar_Quadrotor/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-6ulvxo"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -119,11 +119,11 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/tomek/Desktop/Studia/Podstawy Programowania/tp_projekt_4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-5kxepn'
+        Change Dir: 'C:/Users/tomek/Desktop/Studia/Podstawy Programowania/Planar_Quadrotor/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-6ulvxo'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_e33de
-        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_e33de.dir\\CMakeCCompilerABI.c.obj /FdCMakeFiles\\cmTC_e33de.dir\\ /FS -c "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_e33de.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_e33de.dir\\CMakeCCompilerABI.c.obj  /out:cmTC_e33de.exe /implib:cmTC_e33de.lib /pdb:cmTC_e33de.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_ab823
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_ab823.dir\\CMakeCCompilerABI.c.obj /FdCMakeFiles\\cmTC_ab823.dir\\ /FS -c "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_ab823.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_ab823.dir\\CMakeCCompilerABI.c.obj  /out:cmTC_ab823.exe /implib:cmTC_ab823.lib /pdb:cmTC_ab823.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
         
       exitCode: 0
   -
@@ -135,8 +135,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/tp_projekt_4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-n5t27b"
-      binary: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/tp_projekt_4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-n5t27b"
+      source: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/Planar_Quadrotor/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-tzvs25"
+      binary: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/Planar_Quadrotor/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-tzvs25"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -145,11 +145,11 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/tomek/Desktop/Studia/Podstawy Programowania/tp_projekt_4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-n5t27b'
+        Change Dir: 'C:/Users/tomek/Desktop/Studia/Podstawy Programowania/Planar_Quadrotor/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-tzvs25'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_2d4ab
-        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /GR /EHsc  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_2d4ab.dir\\CMakeCXXCompilerABI.cpp.obj /FdCMakeFiles\\cmTC_2d4ab.dir\\ /FS -c "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_2d4ab.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_2d4ab.dir\\CMakeCXXCompilerABI.cpp.obj  /out:cmTC_2d4ab.exe /implib:cmTC_2d4ab.lib /pdb:cmTC_2d4ab.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_0a2a0
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /GR /EHsc  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_0a2a0.dir\\CMakeCXXCompilerABI.cpp.obj /FdCMakeFiles\\cmTC_0a2a0.dir\\ /FS -c "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_0a2a0.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_0a2a0.dir\\CMakeCXXCompilerABI.cpp.obj  /out:cmTC_0a2a0.exe /implib:cmTC_0a2a0.lib /pdb:cmTC_0a2a0.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
         
       exitCode: 0
   -
@@ -164,27 +164,27 @@ events:
     checks:
       - "Looking for sgemm_"
     directories:
-      source: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/tp_projekt_4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-nj0ltr"
-      binary: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/tp_projekt_4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-nj0ltr"
+      source: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/Planar_Quadrotor/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-jqpehq"
+      binary: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/Planar_Quadrotor/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-jqpehq"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
       CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
-      CMAKE_MODULE_PATH: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/tp_projekt_4/out/build/x64-Debug/CPM_modules;;C:/Users/tomek/Desktop/Studia/Podstawy Programowania/tp_projekt_4/matplotplusplus/cmake"
+      CMAKE_MODULE_PATH: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/Planar_Quadrotor/out/build/x64-Debug/CPM_modules;;C:/Users/tomek/Desktop/Studia/Podstawy Programowania/Planar_Quadrotor/matplotplusplus/cmake"
     buildResult:
       variable: "BLAS_WORKS"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/tomek/Desktop/Studia/Podstawy Programowania/tp_projekt_4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-nj0ltr'
+        Change Dir: 'C:/Users/tomek/Desktop/Studia/Podstawy Programowania/Planar_Quadrotor/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-jqpehq'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_5f8a7
-        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS -DCHECK_FUNCTION_EXISTS=sgemm_ /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_5f8a7.dir\\CheckFunctionExists.c.obj /FdCMakeFiles\\cmTC_5f8a7.dir\\ /FS -c "C:\\Users\\tomek\\Desktop\\Studia\\Podstawy Programowania\\tp_projekt_4\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-nj0ltr\\CheckFunctionExists.c"
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_5f8a7.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_5f8a7.dir\\CheckFunctionExists.c.obj  /out:cmTC_5f8a7.exe /implib:cmTC_5f8a7.lib /pdb:cmTC_5f8a7.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
-        FAILED: cmTC_5f8a7.exe 
-        C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_5f8a7.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_5f8a7.dir\\CheckFunctionExists.c.obj  /out:cmTC_5f8a7.exe /implib:cmTC_5f8a7.lib /pdb:cmTC_5f8a7.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
-        LINK Pass 1: command "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_5f8a7.dir\\CheckFunctionExists.c.obj /out:cmTC_5f8a7.exe /implib:cmTC_5f8a7.lib /pdb:cmTC_5f8a7.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_5f8a7.dir/intermediate.manifest CMakeFiles\\cmTC_5f8a7.dir/manifest.res" failed (exit code 1120) with the following output:
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_94dcb
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS -DCHECK_FUNCTION_EXISTS=sgemm_ /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_94dcb.dir\\CheckFunctionExists.c.obj /FdCMakeFiles\\cmTC_94dcb.dir\\ /FS -c "C:\\Users\\tomek\\Desktop\\Studia\\Podstawy Programowania\\Planar_Quadrotor\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-jqpehq\\CheckFunctionExists.c"
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_94dcb.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_94dcb.dir\\CheckFunctionExists.c.obj  /out:cmTC_94dcb.exe /implib:cmTC_94dcb.lib /pdb:cmTC_94dcb.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        FAILED: cmTC_94dcb.exe 
+        C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_94dcb.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_94dcb.dir\\CheckFunctionExists.c.obj  /out:cmTC_94dcb.exe /implib:cmTC_94dcb.lib /pdb:cmTC_94dcb.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        LINK Pass 1: command "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_94dcb.dir\\CheckFunctionExists.c.obj /out:cmTC_94dcb.exe /implib:cmTC_94dcb.lib /pdb:cmTC_94dcb.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_94dcb.dir/intermediate.manifest CMakeFiles\\cmTC_94dcb.dir/manifest.res" failed (exit code 1120) with the following output:
         CheckFunctionExists.c.obj : error LNK2019: unresolved external symbol sgemm_ referenced in function main\x0d
-        cmTC_5f8a7.exe : fatal error LNK1120: 1 unresolved externals\x0d
+        cmTC_94dcb.exe : fatal error LNK1120: 1 unresolved externals\x0d
         ninja: build stopped: subcommand failed.
         
       exitCode: 1
@@ -202,24 +202,24 @@ events:
     checks:
       - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/tp_projekt_4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-ha9p1q"
-      binary: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/tp_projekt_4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-ha9p1q"
+      source: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/Planar_Quadrotor/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-v6t0o9"
+      binary: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/Planar_Quadrotor/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-v6t0o9"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
       CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
-      CMAKE_MODULE_PATH: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/tp_projekt_4/out/build/x64-Debug/CPM_modules;;C:/Users/tomek/Desktop/Studia/Podstawy Programowania/tp_projekt_4/matplotplusplus/cmake"
+      CMAKE_MODULE_PATH: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/Planar_Quadrotor/out/build/x64-Debug/CPM_modules;;C:/Users/tomek/Desktop/Studia/Podstawy Programowania/Planar_Quadrotor/matplotplusplus/cmake"
     buildResult:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/tomek/Desktop/Studia/Podstawy Programowania/tp_projekt_4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-ha9p1q'
+        Change Dir: 'C:/Users/tomek/Desktop/Studia/Podstawy Programowania/Planar_Quadrotor/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-v6t0o9'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_8e8b0
-        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\cl.exe  /nologo -DCMAKE_HAVE_LIBC_PTHREAD  /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_8e8b0.dir\\src.c.obj /FdCMakeFiles\\cmTC_8e8b0.dir\\ /FS -c "C:\\Users\\tomek\\Desktop\\Studia\\Podstawy Programowania\\tp_projekt_4\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-ha9p1q\\src.c"
-        FAILED: CMakeFiles/cmTC_8e8b0.dir/src.c.obj 
-        C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\cl.exe  /nologo -DCMAKE_HAVE_LIBC_PTHREAD  /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_8e8b0.dir\\src.c.obj /FdCMakeFiles\\cmTC_8e8b0.dir\\ /FS -c "C:\\Users\\tomek\\Desktop\\Studia\\Podstawy Programowania\\tp_projekt_4\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-ha9p1q\\src.c"
-        C:\\Users\\tomek\\Desktop\\Studia\\Podstawy Programowania\\tp_projekt_4\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-ha9p1q\\src.c(1): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_33b0c
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\cl.exe  /nologo -DCMAKE_HAVE_LIBC_PTHREAD  /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_33b0c.dir\\src.c.obj /FdCMakeFiles\\cmTC_33b0c.dir\\ /FS -c "C:\\Users\\tomek\\Desktop\\Studia\\Podstawy Programowania\\Planar_Quadrotor\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-v6t0o9\\src.c"
+        FAILED: CMakeFiles/cmTC_33b0c.dir/src.c.obj 
+        C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\cl.exe  /nologo -DCMAKE_HAVE_LIBC_PTHREAD  /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_33b0c.dir\\src.c.obj /FdCMakeFiles\\cmTC_33b0c.dir\\ /FS -c "C:\\Users\\tomek\\Desktop\\Studia\\Podstawy Programowania\\Planar_Quadrotor\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-v6t0o9\\src.c"
+        C:\\Users\\tomek\\Desktop\\Studia\\Podstawy Programowania\\Planar_Quadrotor\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-v6t0o9\\src.c(1): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory
         ninja: build stopped: subcommand failed.
         
       exitCode: 1
@@ -236,25 +236,25 @@ events:
     checks:
       - "Looking for pthread_create in pthreads"
     directories:
-      source: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/tp_projekt_4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-8ylity"
-      binary: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/tp_projekt_4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-8ylity"
+      source: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/Planar_Quadrotor/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-gnqe4i"
+      binary: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/Planar_Quadrotor/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-gnqe4i"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
       CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
-      CMAKE_MODULE_PATH: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/tp_projekt_4/out/build/x64-Debug/CPM_modules;;C:/Users/tomek/Desktop/Studia/Podstawy Programowania/tp_projekt_4/matplotplusplus/cmake"
+      CMAKE_MODULE_PATH: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/Planar_Quadrotor/out/build/x64-Debug/CPM_modules;;C:/Users/tomek/Desktop/Studia/Podstawy Programowania/Planar_Quadrotor/matplotplusplus/cmake"
     buildResult:
       variable: "CMAKE_HAVE_PTHREADS_CREATE"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/tomek/Desktop/Studia/Podstawy Programowania/tp_projekt_4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-8ylity'
+        Change Dir: 'C:/Users/tomek/Desktop/Studia/Podstawy Programowania/Planar_Quadrotor/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-gnqe4i'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_e7b06
-        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS -DCHECK_FUNCTION_EXISTS=pthread_create /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_e7b06.dir\\CheckFunctionExists.c.obj /FdCMakeFiles\\cmTC_e7b06.dir\\ /FS -c "C:\\Users\\tomek\\Desktop\\Studia\\Podstawy Programowania\\tp_projekt_4\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-8ylity\\CheckFunctionExists.c"
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_e7b06.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_e7b06.dir\\CheckFunctionExists.c.obj  /out:cmTC_e7b06.exe /implib:cmTC_e7b06.lib /pdb:cmTC_e7b06.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  pthreads.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
-        FAILED: cmTC_e7b06.exe 
-        C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_e7b06.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_e7b06.dir\\CheckFunctionExists.c.obj  /out:cmTC_e7b06.exe /implib:cmTC_e7b06.lib /pdb:cmTC_e7b06.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  pthreads.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
-        LINK Pass 1: command "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_e7b06.dir\\CheckFunctionExists.c.obj /out:cmTC_e7b06.exe /implib:cmTC_e7b06.lib /pdb:cmTC_e7b06.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_e7b06.dir/intermediate.manifest CMakeFiles\\cmTC_e7b06.dir/manifest.res" failed (exit code 1104) with the following output:
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_9e6bc
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS -DCHECK_FUNCTION_EXISTS=pthread_create /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_9e6bc.dir\\CheckFunctionExists.c.obj /FdCMakeFiles\\cmTC_9e6bc.dir\\ /FS -c "C:\\Users\\tomek\\Desktop\\Studia\\Podstawy Programowania\\Planar_Quadrotor\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-gnqe4i\\CheckFunctionExists.c"
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_9e6bc.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_9e6bc.dir\\CheckFunctionExists.c.obj  /out:cmTC_9e6bc.exe /implib:cmTC_9e6bc.lib /pdb:cmTC_9e6bc.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  pthreads.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        FAILED: cmTC_9e6bc.exe 
+        C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_9e6bc.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_9e6bc.dir\\CheckFunctionExists.c.obj  /out:cmTC_9e6bc.exe /implib:cmTC_9e6bc.lib /pdb:cmTC_9e6bc.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  pthreads.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        LINK Pass 1: command "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_9e6bc.dir\\CheckFunctionExists.c.obj /out:cmTC_9e6bc.exe /implib:cmTC_9e6bc.lib /pdb:cmTC_9e6bc.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_9e6bc.dir/intermediate.manifest CMakeFiles\\cmTC_9e6bc.dir/manifest.res" failed (exit code 1104) with the following output:
         LINK : fatal error LNK1104: cannot open file 'pthreads.lib'\x0d
         ninja: build stopped: subcommand failed.
         
@@ -272,25 +272,25 @@ events:
     checks:
       - "Looking for pthread_create in pthread"
     directories:
-      source: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/tp_projekt_4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-6ilblj"
-      binary: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/tp_projekt_4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-6ilblj"
+      source: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/Planar_Quadrotor/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-lpbmg5"
+      binary: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/Planar_Quadrotor/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-lpbmg5"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
       CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
-      CMAKE_MODULE_PATH: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/tp_projekt_4/out/build/x64-Debug/CPM_modules;;C:/Users/tomek/Desktop/Studia/Podstawy Programowania/tp_projekt_4/matplotplusplus/cmake"
+      CMAKE_MODULE_PATH: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/Planar_Quadrotor/out/build/x64-Debug/CPM_modules;;C:/Users/tomek/Desktop/Studia/Podstawy Programowania/Planar_Quadrotor/matplotplusplus/cmake"
     buildResult:
       variable: "CMAKE_HAVE_PTHREAD_CREATE"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/tomek/Desktop/Studia/Podstawy Programowania/tp_projekt_4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-6ilblj'
+        Change Dir: 'C:/Users/tomek/Desktop/Studia/Podstawy Programowania/Planar_Quadrotor/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-lpbmg5'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_39c99
-        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS -DCHECK_FUNCTION_EXISTS=pthread_create /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_39c99.dir\\CheckFunctionExists.c.obj /FdCMakeFiles\\cmTC_39c99.dir\\ /FS -c "C:\\Users\\tomek\\Desktop\\Studia\\Podstawy Programowania\\tp_projekt_4\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-6ilblj\\CheckFunctionExists.c"
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_39c99.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_39c99.dir\\CheckFunctionExists.c.obj  /out:cmTC_39c99.exe /implib:cmTC_39c99.lib /pdb:cmTC_39c99.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  pthread.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
-        FAILED: cmTC_39c99.exe 
-        C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_39c99.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_39c99.dir\\CheckFunctionExists.c.obj  /out:cmTC_39c99.exe /implib:cmTC_39c99.lib /pdb:cmTC_39c99.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  pthread.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
-        LINK Pass 1: command "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_39c99.dir\\CheckFunctionExists.c.obj /out:cmTC_39c99.exe /implib:cmTC_39c99.lib /pdb:cmTC_39c99.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_39c99.dir/intermediate.manifest CMakeFiles\\cmTC_39c99.dir/manifest.res" failed (exit code 1104) with the following output:
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_5ad6e
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS -DCHECK_FUNCTION_EXISTS=pthread_create /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_5ad6e.dir\\CheckFunctionExists.c.obj /FdCMakeFiles\\cmTC_5ad6e.dir\\ /FS -c "C:\\Users\\tomek\\Desktop\\Studia\\Podstawy Programowania\\Planar_Quadrotor\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-lpbmg5\\CheckFunctionExists.c"
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_5ad6e.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_5ad6e.dir\\CheckFunctionExists.c.obj  /out:cmTC_5ad6e.exe /implib:cmTC_5ad6e.lib /pdb:cmTC_5ad6e.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  pthread.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        FAILED: cmTC_5ad6e.exe 
+        C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_5ad6e.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_5ad6e.dir\\CheckFunctionExists.c.obj  /out:cmTC_5ad6e.exe /implib:cmTC_5ad6e.lib /pdb:cmTC_5ad6e.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  pthread.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        LINK Pass 1: command "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_5ad6e.dir\\CheckFunctionExists.c.obj /out:cmTC_5ad6e.exe /implib:cmTC_5ad6e.lib /pdb:cmTC_5ad6e.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_5ad6e.dir/intermediate.manifest CMakeFiles\\cmTC_5ad6e.dir/manifest.res" failed (exit code 1104) with the following output:
         LINK : fatal error LNK1104: cannot open file 'pthread.lib'\x0d
         ninja: build stopped: subcommand failed.
         
@@ -304,23 +304,23 @@ events:
     checks:
       - "Looking for C++ include filesystem"
     directories:
-      source: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/tp_projekt_4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-yot5uy"
-      binary: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/tp_projekt_4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-yot5uy"
+      source: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/Planar_Quadrotor/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-k613xf"
+      binary: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/Planar_Quadrotor/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-k613xf"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc /O0"
       CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
       CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
-      CMAKE_MODULE_PATH: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/tp_projekt_4/out/build/x64-Debug/CPM_modules;;C:/Users/tomek/Desktop/Studia/Podstawy Programowania/tp_projekt_4/matplotplusplus/cmake"
+      CMAKE_MODULE_PATH: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/Planar_Quadrotor/out/build/x64-Debug/CPM_modules;;C:/Users/tomek/Desktop/Studia/Podstawy Programowania/Planar_Quadrotor/matplotplusplus/cmake"
     buildResult:
       variable: "_CXX_FILESYSTEM_HAVE_HEADER"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/tomek/Desktop/Studia/Podstawy Programowania/tp_projekt_4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-yot5uy'
+        Change Dir: 'C:/Users/tomek/Desktop/Studia/Podstawy Programowania/Planar_Quadrotor/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-k613xf'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_c057c
-        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /GR /EHsc /O0  /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /showIncludes /FoCMakeFiles\\cmTC_c057c.dir\\CheckIncludeFile.cxx.obj /FdCMakeFiles\\cmTC_c057c.dir\\ /FS -c "C:\\Users\\tomek\\Desktop\\Studia\\Podstawy Programowania\\tp_projekt_4\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-yot5uy\\CheckIncludeFile.cxx"
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_1e2fa
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /GR /EHsc /O0  /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /showIncludes /FoCMakeFiles\\cmTC_1e2fa.dir\\CheckIncludeFile.cxx.obj /FdCMakeFiles\\cmTC_1e2fa.dir\\ /FS -c "C:\\Users\\tomek\\Desktop\\Studia\\Podstawy Programowania\\Planar_Quadrotor\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-k613xf\\CheckIncludeFile.cxx"
         cl : Command line warning D9002 : ignoring unknown option '/O0'
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_c057c.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_c057c.dir\\CheckIncludeFile.cxx.obj  /out:cmTC_c057c.exe /implib:cmTC_c057c.lib /pdb:cmTC_c057c.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_1e2fa.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_1e2fa.dir\\CheckIncludeFile.cxx.obj  /out:cmTC_1e2fa.exe /implib:cmTC_1e2fa.lib /pdb:cmTC_1e2fa.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
         
       exitCode: 0
   -
@@ -334,28 +334,28 @@ events:
     checks:
       - "Performing Test CXX_FILESYSTEM_NO_LINK_NEEDED"
     directories:
-      source: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/tp_projekt_4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-undcrm"
-      binary: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/tp_projekt_4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-undcrm"
+      source: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/Planar_Quadrotor/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-1lg0lv"
+      binary: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/Planar_Quadrotor/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-1lg0lv"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc /O0"
       CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
       CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
-      CMAKE_MODULE_PATH: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/tp_projekt_4/out/build/x64-Debug/CPM_modules;;C:/Users/tomek/Desktop/Studia/Podstawy Programowania/tp_projekt_4/matplotplusplus/cmake"
+      CMAKE_MODULE_PATH: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/Planar_Quadrotor/out/build/x64-Debug/CPM_modules;;C:/Users/tomek/Desktop/Studia/Podstawy Programowania/Planar_Quadrotor/matplotplusplus/cmake"
     buildResult:
       variable: "CXX_FILESYSTEM_NO_LINK_NEEDED_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/tomek/Desktop/Studia/Podstawy Programowania/tp_projekt_4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-undcrm'
+        Change Dir: 'C:/Users/tomek/Desktop/Studia/Podstawy Programowania/Planar_Quadrotor/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-1lg0lv'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_e6e5d
-        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DCXX_FILESYSTEM_NO_LINK_NEEDED  /DWIN32 /D_WINDOWS /GR /EHsc /O0  /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /showIncludes /FoCMakeFiles\\cmTC_e6e5d.dir\\src.cxx.obj /FdCMakeFiles\\cmTC_e6e5d.dir\\ /FS -c "C:\\Users\\tomek\\Desktop\\Studia\\Podstawy Programowania\\tp_projekt_4\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-undcrm\\src.cxx"
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_5cb13
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DCXX_FILESYSTEM_NO_LINK_NEEDED  /DWIN32 /D_WINDOWS /GR /EHsc /O0  /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /showIncludes /FoCMakeFiles\\cmTC_5cb13.dir\\src.cxx.obj /FdCMakeFiles\\cmTC_5cb13.dir\\ /FS -c "C:\\Users\\tomek\\Desktop\\Studia\\Podstawy Programowania\\Planar_Quadrotor\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-1lg0lv\\src.cxx"
         cl : Command line warning D9002 : ignoring unknown option '/O0'
-        C:\\Users\\tomek\\Desktop\\Studia\\Podstawy Programowania\\tp_projekt_4\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-undcrm\\src.cxx(6): warning C4477: 'printf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'const std::filesystem::path::value_type *'
-        C:\\Users\\tomek\\Desktop\\Studia\\Podstawy Programowania\\tp_projekt_4\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-undcrm\\src.cxx(6): note: consider using '%ls' in the format string
-        C:\\Users\\tomek\\Desktop\\Studia\\Podstawy Programowania\\tp_projekt_4\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-undcrm\\src.cxx(6): note: consider using '%lls' in the format string
-        C:\\Users\\tomek\\Desktop\\Studia\\Podstawy Programowania\\tp_projekt_4\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-undcrm\\src.cxx(6): note: consider using '%Ls' in the format string
-        C:\\Users\\tomek\\Desktop\\Studia\\Podstawy Programowania\\tp_projekt_4\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-undcrm\\src.cxx(6): note: consider using '%ws' in the format string
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_e6e5d.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_e6e5d.dir\\src.cxx.obj  /out:cmTC_e6e5d.exe /implib:cmTC_e6e5d.lib /pdb:cmTC_e6e5d.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        C:\\Users\\tomek\\Desktop\\Studia\\Podstawy Programowania\\Planar_Quadrotor\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-1lg0lv\\src.cxx(6): warning C4477: 'printf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'const std::filesystem::path::value_type *'
+        C:\\Users\\tomek\\Desktop\\Studia\\Podstawy Programowania\\Planar_Quadrotor\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-1lg0lv\\src.cxx(6): note: consider using '%ls' in the format string
+        C:\\Users\\tomek\\Desktop\\Studia\\Podstawy Programowania\\Planar_Quadrotor\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-1lg0lv\\src.cxx(6): note: consider using '%lls' in the format string
+        C:\\Users\\tomek\\Desktop\\Studia\\Podstawy Programowania\\Planar_Quadrotor\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-1lg0lv\\src.cxx(6): note: consider using '%Ls' in the format string
+        C:\\Users\\tomek\\Desktop\\Studia\\Podstawy Programowania\\Planar_Quadrotor\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-1lg0lv\\src.cxx(6): note: consider using '%ws' in the format string
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_5cb13.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_5cb13.dir\\src.cxx.obj  /out:cmTC_5cb13.exe /implib:cmTC_5cb13.lib /pdb:cmTC_5cb13.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
         
       exitCode: 0
     runResult:
@@ -374,24 +374,24 @@ events:
     checks:
       - "Looking for __fbufsize"
     directories:
-      source: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/tp_projekt_4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-qax7vg"
-      binary: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/tp_projekt_4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-qax7vg"
+      source: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/Planar_Quadrotor/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-qvm1dz"
+      binary: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/Planar_Quadrotor/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-qvm1dz"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
       CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
-      CMAKE_MODULE_PATH: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/tp_projekt_4/out/build/x64-Debug/CPM_modules;;C:/Users/tomek/Desktop/Studia/Podstawy Programowania/tp_projekt_4/matplotplusplus/cmake"
+      CMAKE_MODULE_PATH: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/Planar_Quadrotor/out/build/x64-Debug/CPM_modules;;C:/Users/tomek/Desktop/Studia/Podstawy Programowania/Planar_Quadrotor/matplotplusplus/cmake"
     buildResult:
       variable: "HAVE_FBUFSIZE"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/tomek/Desktop/Studia/Podstawy Programowania/tp_projekt_4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-qax7vg'
+        Change Dir: 'C:/Users/tomek/Desktop/Studia/Podstawy Programowania/Planar_Quadrotor/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-qvm1dz'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_5d135
-        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_5d135.dir\\CheckSymbolExists.c.obj /FdCMakeFiles\\cmTC_5d135.dir\\ /FS -c "C:\\Users\\tomek\\Desktop\\Studia\\Podstawy Programowania\\tp_projekt_4\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-qax7vg\\CheckSymbolExists.c"
-        FAILED: CMakeFiles/cmTC_5d135.dir/CheckSymbolExists.c.obj 
-        C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_5d135.dir\\CheckSymbolExists.c.obj /FdCMakeFiles\\cmTC_5d135.dir\\ /FS -c "C:\\Users\\tomek\\Desktop\\Studia\\Podstawy Programowania\\tp_projekt_4\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-qax7vg\\CheckSymbolExists.c"
-        C:\\Users\\tomek\\Desktop\\Studia\\Podstawy Programowania\\tp_projekt_4\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-qax7vg\\CheckSymbolExists.c(2): fatal error C1083: Cannot open include file: 'stdio_ext.h': No such file or directory
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_e7c65
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_e7c65.dir\\CheckSymbolExists.c.obj /FdCMakeFiles\\cmTC_e7c65.dir\\ /FS -c "C:\\Users\\tomek\\Desktop\\Studia\\Podstawy Programowania\\Planar_Quadrotor\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-qvm1dz\\CheckSymbolExists.c"
+        FAILED: CMakeFiles/cmTC_e7c65.dir/CheckSymbolExists.c.obj 
+        C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_e7c65.dir\\CheckSymbolExists.c.obj /FdCMakeFiles\\cmTC_e7c65.dir\\ /FS -c "C:\\Users\\tomek\\Desktop\\Studia\\Podstawy Programowania\\Planar_Quadrotor\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-qvm1dz\\CheckSymbolExists.c"
+        C:\\Users\\tomek\\Desktop\\Studia\\Podstawy Programowania\\Planar_Quadrotor\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-qvm1dz\\CheckSymbolExists.c(2): fatal error C1083: Cannot open include file: 'stdio_ext.h': No such file or directory
         ninja: build stopped: subcommand failed.
         
       exitCode: 1
@@ -404,24 +404,24 @@ events:
     checks:
       - "Looking for __GLIBC__"
     directories:
-      source: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/tp_projekt_4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-7jnlbm"
-      binary: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/tp_projekt_4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-7jnlbm"
+      source: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/Planar_Quadrotor/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-s2ny4n"
+      binary: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/Planar_Quadrotor/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-s2ny4n"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
       CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
-      CMAKE_MODULE_PATH: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/tp_projekt_4/SDL/cmake"
+      CMAKE_MODULE_PATH: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/Planar_Quadrotor/SDL/cmake"
     buildResult:
       variable: "LIBC_IS_GLIBC"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/tomek/Desktop/Studia/Podstawy Programowania/tp_projekt_4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-7jnlbm'
+        Change Dir: 'C:/Users/tomek/Desktop/Studia/Podstawy Programowania/Planar_Quadrotor/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-s2ny4n'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_ef467
-        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_ef467.dir\\CheckSymbolExists.c.obj /FdCMakeFiles\\cmTC_ef467.dir\\ /FS -c "C:\\Users\\tomek\\Desktop\\Studia\\Podstawy Programowania\\tp_projekt_4\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-7jnlbm\\CheckSymbolExists.c"
-        FAILED: CMakeFiles/cmTC_ef467.dir/CheckSymbolExists.c.obj 
-        C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_ef467.dir\\CheckSymbolExists.c.obj /FdCMakeFiles\\cmTC_ef467.dir\\ /FS -c "C:\\Users\\tomek\\Desktop\\Studia\\Podstawy Programowania\\tp_projekt_4\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-7jnlbm\\CheckSymbolExists.c"
-        C:\\Users\\tomek\\Desktop\\Studia\\Podstawy Programowania\\tp_projekt_4\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-7jnlbm\\CheckSymbolExists.c(8): error C2065: '__GLIBC__': undeclared identifier
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_49316
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_49316.dir\\CheckSymbolExists.c.obj /FdCMakeFiles\\cmTC_49316.dir\\ /FS -c "C:\\Users\\tomek\\Desktop\\Studia\\Podstawy Programowania\\Planar_Quadrotor\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-s2ny4n\\CheckSymbolExists.c"
+        FAILED: CMakeFiles/cmTC_49316.dir/CheckSymbolExists.c.obj 
+        C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_49316.dir\\CheckSymbolExists.c.obj /FdCMakeFiles\\cmTC_49316.dir\\ /FS -c "C:\\Users\\tomek\\Desktop\\Studia\\Podstawy Programowania\\Planar_Quadrotor\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-s2ny4n\\CheckSymbolExists.c"
+        C:\\Users\\tomek\\Desktop\\Studia\\Podstawy Programowania\\Planar_Quadrotor\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-s2ny4n\\CheckSymbolExists.c(8): error C2065: '__GLIBC__': undeclared identifier
         ninja: build stopped: subcommand failed.
         
       exitCode: 1
@@ -433,22 +433,22 @@ events:
     checks:
       - "Looking for immintrin.h"
     directories:
-      source: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/tp_projekt_4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-gf7oa7"
-      binary: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/tp_projekt_4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-gf7oa7"
+      source: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/Planar_Quadrotor/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-l6bpbl"
+      binary: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/Planar_Quadrotor/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-l6bpbl"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od "
       CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
-      CMAKE_MODULE_PATH: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/tp_projekt_4/SDL/cmake"
+      CMAKE_MODULE_PATH: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/Planar_Quadrotor/SDL/cmake"
     buildResult:
       variable: "HAVE_IMMINTRIN_H"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/tomek/Desktop/Studia/Podstawy Programowania/tp_projekt_4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-gf7oa7'
+        Change Dir: 'C:/Users/tomek/Desktop/Studia/Podstawy Programowania/Planar_Quadrotor/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-l6bpbl'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_33909
-        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od  -MDd /showIncludes /FoCMakeFiles\\cmTC_33909.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_33909.dir\\ /FS -c "C:\\Users\\tomek\\Desktop\\Studia\\Podstawy Programowania\\tp_projekt_4\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-gf7oa7\\CheckIncludeFile.c"
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_33909.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_33909.dir\\CheckIncludeFile.c.obj  /out:cmTC_33909.exe /implib:cmTC_33909.lib /pdb:cmTC_33909.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_683d7
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od  -MDd /showIncludes /FoCMakeFiles\\cmTC_683d7.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_683d7.dir\\ /FS -c "C:\\Users\\tomek\\Desktop\\Studia\\Podstawy Programowania\\Planar_Quadrotor\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-l6bpbl\\CheckIncludeFile.c"
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_683d7.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_683d7.dir\\CheckIncludeFile.c.obj  /out:cmTC_683d7.exe /implib:cmTC_683d7.lib /pdb:cmTC_683d7.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
         
       exitCode: 0
   -
@@ -460,22 +460,22 @@ events:
     checks:
       - "Performing Test HAVE_WIN32_CC"
     directories:
-      source: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/tp_projekt_4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-jdxwhv"
-      binary: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/tp_projekt_4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-jdxwhv"
+      source: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/Planar_Quadrotor/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-wivyza"
+      binary: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/Planar_Quadrotor/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-wivyza"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od "
       CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
-      CMAKE_MODULE_PATH: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/tp_projekt_4/SDL/cmake"
+      CMAKE_MODULE_PATH: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/Planar_Quadrotor/SDL/cmake"
     buildResult:
       variable: "HAVE_WIN32_CC"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/tomek/Desktop/Studia/Podstawy Programowania/tp_projekt_4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-jdxwhv'
+        Change Dir: 'C:/Users/tomek/Desktop/Studia/Podstawy Programowania/Planar_Quadrotor/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-wivyza'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_58e6b
-        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\cl.exe  /nologo -DHAVE_WIN32_CC  /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od  -MDd /showIncludes /FoCMakeFiles\\cmTC_58e6b.dir\\src.c.obj /FdCMakeFiles\\cmTC_58e6b.dir\\ /FS -c "C:\\Users\\tomek\\Desktop\\Studia\\Podstawy Programowania\\tp_projekt_4\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-jdxwhv\\src.c"
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_58e6b.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_58e6b.dir\\src.c.obj  /out:cmTC_58e6b.exe /implib:cmTC_58e6b.lib /pdb:cmTC_58e6b.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_5ac82
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\cl.exe  /nologo -DHAVE_WIN32_CC  /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od  -MDd /showIncludes /FoCMakeFiles\\cmTC_5ac82.dir\\src.c.obj /FdCMakeFiles\\cmTC_5ac82.dir\\ /FS -c "C:\\Users\\tomek\\Desktop\\Studia\\Podstawy Programowania\\Planar_Quadrotor\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-wivyza\\src.c"
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_5ac82.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_5ac82.dir\\src.c.obj  /out:cmTC_5ac82.exe /implib:cmTC_5ac82.lib /pdb:cmTC_5ac82.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
         
       exitCode: 0
   -
@@ -486,22 +486,22 @@ events:
     checks:
       - "Looking for d3d9.h"
     directories:
-      source: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/tp_projekt_4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-gkjlh4"
-      binary: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/tp_projekt_4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-gkjlh4"
+      source: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/Planar_Quadrotor/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-2lz9mq"
+      binary: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/Planar_Quadrotor/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-2lz9mq"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od "
       CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
-      CMAKE_MODULE_PATH: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/tp_projekt_4/SDL/cmake"
+      CMAKE_MODULE_PATH: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/Planar_Quadrotor/SDL/cmake"
     buildResult:
       variable: "HAVE_D3D_H"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/tomek/Desktop/Studia/Podstawy Programowania/tp_projekt_4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-gkjlh4'
+        Change Dir: 'C:/Users/tomek/Desktop/Studia/Podstawy Programowania/Planar_Quadrotor/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-2lz9mq'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_46f06
-        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od  -MDd /showIncludes /FoCMakeFiles\\cmTC_46f06.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_46f06.dir\\ /FS -c "C:\\Users\\tomek\\Desktop\\Studia\\Podstawy Programowania\\tp_projekt_4\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-gkjlh4\\CheckIncludeFile.c"
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_46f06.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_46f06.dir\\CheckIncludeFile.c.obj  /out:cmTC_46f06.exe /implib:cmTC_46f06.lib /pdb:cmTC_46f06.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_48223
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od  -MDd /showIncludes /FoCMakeFiles\\cmTC_48223.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_48223.dir\\ /FS -c "C:\\Users\\tomek\\Desktop\\Studia\\Podstawy Programowania\\Planar_Quadrotor\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-2lz9mq\\CheckIncludeFile.c"
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_48223.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_48223.dir\\CheckIncludeFile.c.obj  /out:cmTC_48223.exe /implib:cmTC_48223.lib /pdb:cmTC_48223.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
         
       exitCode: 0
   -
@@ -512,22 +512,22 @@ events:
     checks:
       - "Looking for d3d11_1.h"
     directories:
-      source: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/tp_projekt_4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-875uch"
-      binary: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/tp_projekt_4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-875uch"
+      source: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/Planar_Quadrotor/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-qba4vm"
+      binary: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/Planar_Quadrotor/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-qba4vm"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od "
       CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
-      CMAKE_MODULE_PATH: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/tp_projekt_4/SDL/cmake"
+      CMAKE_MODULE_PATH: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/Planar_Quadrotor/SDL/cmake"
     buildResult:
       variable: "HAVE_D3D11_H"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/tomek/Desktop/Studia/Podstawy Programowania/tp_projekt_4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-875uch'
+        Change Dir: 'C:/Users/tomek/Desktop/Studia/Podstawy Programowania/Planar_Quadrotor/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-qba4vm'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_6e6e0
-        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od  -MDd /showIncludes /FoCMakeFiles\\cmTC_6e6e0.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_6e6e0.dir\\ /FS -c "C:\\Users\\tomek\\Desktop\\Studia\\Podstawy Programowania\\tp_projekt_4\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-875uch\\CheckIncludeFile.c"
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_6e6e0.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_6e6e0.dir\\CheckIncludeFile.c.obj  /out:cmTC_6e6e0.exe /implib:cmTC_6e6e0.lib /pdb:cmTC_6e6e0.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_9c05a
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od  -MDd /showIncludes /FoCMakeFiles\\cmTC_9c05a.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_9c05a.dir\\ /FS -c "C:\\Users\\tomek\\Desktop\\Studia\\Podstawy Programowania\\Planar_Quadrotor\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-qba4vm\\CheckIncludeFile.c"
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_9c05a.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_9c05a.dir\\CheckIncludeFile.c.obj  /out:cmTC_9c05a.exe /implib:cmTC_9c05a.lib /pdb:cmTC_9c05a.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
         
       exitCode: 0
   -
@@ -539,22 +539,22 @@ events:
     checks:
       - "Performing Test HAVE_D3D12_H"
     directories:
-      source: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/tp_projekt_4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-pkglqq"
-      binary: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/tp_projekt_4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-pkglqq"
+      source: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/Planar_Quadrotor/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-s1zcso"
+      binary: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/Planar_Quadrotor/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-s1zcso"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od "
       CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
-      CMAKE_MODULE_PATH: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/tp_projekt_4/SDL/cmake"
+      CMAKE_MODULE_PATH: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/Planar_Quadrotor/SDL/cmake"
     buildResult:
       variable: "HAVE_D3D12_H"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/tomek/Desktop/Studia/Podstawy Programowania/tp_projekt_4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-pkglqq'
+        Change Dir: 'C:/Users/tomek/Desktop/Studia/Podstawy Programowania/Planar_Quadrotor/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-s1zcso'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_3cb52
-        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\cl.exe  /nologo -DHAVE_D3D12_H  /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od  -MDd /showIncludes /FoCMakeFiles\\cmTC_3cb52.dir\\src.c.obj /FdCMakeFiles\\cmTC_3cb52.dir\\ /FS -c "C:\\Users\\tomek\\Desktop\\Studia\\Podstawy Programowania\\tp_projekt_4\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-pkglqq\\src.c"
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_3cb52.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_3cb52.dir\\src.c.obj  /out:cmTC_3cb52.exe /implib:cmTC_3cb52.lib /pdb:cmTC_3cb52.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_c1370
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\cl.exe  /nologo -DHAVE_D3D12_H  /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od  -MDd /showIncludes /FoCMakeFiles\\cmTC_c1370.dir\\src.c.obj /FdCMakeFiles\\cmTC_c1370.dir\\ /FS -c "C:\\Users\\tomek\\Desktop\\Studia\\Podstawy Programowania\\Planar_Quadrotor\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-s1zcso\\src.c"
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_c1370.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_c1370.dir\\src.c.obj  /out:cmTC_c1370.exe /implib:cmTC_c1370.lib /pdb:cmTC_c1370.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
         
       exitCode: 0
   -
@@ -565,22 +565,22 @@ events:
     checks:
       - "Looking for ddraw.h"
     directories:
-      source: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/tp_projekt_4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-buhje4"
-      binary: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/tp_projekt_4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-buhje4"
+      source: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/Planar_Quadrotor/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-zbhq4w"
+      binary: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/Planar_Quadrotor/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-zbhq4w"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od "
       CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
-      CMAKE_MODULE_PATH: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/tp_projekt_4/SDL/cmake"
+      CMAKE_MODULE_PATH: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/Planar_Quadrotor/SDL/cmake"
     buildResult:
       variable: "HAVE_DDRAW_H"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/tomek/Desktop/Studia/Podstawy Programowania/tp_projekt_4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-buhje4'
+        Change Dir: 'C:/Users/tomek/Desktop/Studia/Podstawy Programowania/Planar_Quadrotor/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-zbhq4w'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_47809
-        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od  -MDd /showIncludes /FoCMakeFiles\\cmTC_47809.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_47809.dir\\ /FS -c "C:\\Users\\tomek\\Desktop\\Studia\\Podstawy Programowania\\tp_projekt_4\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-buhje4\\CheckIncludeFile.c"
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_47809.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_47809.dir\\CheckIncludeFile.c.obj  /out:cmTC_47809.exe /implib:cmTC_47809.lib /pdb:cmTC_47809.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_baa87
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od  -MDd /showIncludes /FoCMakeFiles\\cmTC_baa87.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_baa87.dir\\ /FS -c "C:\\Users\\tomek\\Desktop\\Studia\\Podstawy Programowania\\Planar_Quadrotor\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-zbhq4w\\CheckIncludeFile.c"
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_baa87.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_baa87.dir\\CheckIncludeFile.c.obj  /out:cmTC_baa87.exe /implib:cmTC_baa87.lib /pdb:cmTC_baa87.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
         
       exitCode: 0
   -
@@ -591,22 +591,22 @@ events:
     checks:
       - "Looking for dsound.h"
     directories:
-      source: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/tp_projekt_4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-0fbhm3"
-      binary: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/tp_projekt_4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-0fbhm3"
+      source: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/Planar_Quadrotor/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-1yca4k"
+      binary: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/Planar_Quadrotor/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-1yca4k"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od "
       CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
-      CMAKE_MODULE_PATH: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/tp_projekt_4/SDL/cmake"
+      CMAKE_MODULE_PATH: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/Planar_Quadrotor/SDL/cmake"
     buildResult:
       variable: "HAVE_DSOUND_H"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/tomek/Desktop/Studia/Podstawy Programowania/tp_projekt_4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-0fbhm3'
+        Change Dir: 'C:/Users/tomek/Desktop/Studia/Podstawy Programowania/Planar_Quadrotor/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-1yca4k'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_5cc71
-        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od  -MDd /showIncludes /FoCMakeFiles\\cmTC_5cc71.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_5cc71.dir\\ /FS -c "C:\\Users\\tomek\\Desktop\\Studia\\Podstawy Programowania\\tp_projekt_4\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-0fbhm3\\CheckIncludeFile.c"
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_5cc71.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_5cc71.dir\\CheckIncludeFile.c.obj  /out:cmTC_5cc71.exe /implib:cmTC_5cc71.lib /pdb:cmTC_5cc71.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_ff92e
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od  -MDd /showIncludes /FoCMakeFiles\\cmTC_ff92e.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_ff92e.dir\\ /FS -c "C:\\Users\\tomek\\Desktop\\Studia\\Podstawy Programowania\\Planar_Quadrotor\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-1yca4k\\CheckIncludeFile.c"
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_ff92e.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_ff92e.dir\\CheckIncludeFile.c.obj  /out:cmTC_ff92e.exe /implib:cmTC_ff92e.lib /pdb:cmTC_ff92e.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
         
       exitCode: 0
   -
@@ -617,23 +617,23 @@ events:
     checks:
       - "Looking for dinput.h"
     directories:
-      source: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/tp_projekt_4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-f75iqg"
-      binary: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/tp_projekt_4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-f75iqg"
+      source: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/Planar_Quadrotor/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-rwd7q3"
+      binary: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/Planar_Quadrotor/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-rwd7q3"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od "
       CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
-      CMAKE_MODULE_PATH: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/tp_projekt_4/SDL/cmake"
+      CMAKE_MODULE_PATH: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/Planar_Quadrotor/SDL/cmake"
     buildResult:
       variable: "HAVE_DINPUT_H"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/tomek/Desktop/Studia/Podstawy Programowania/tp_projekt_4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-f75iqg'
+        Change Dir: 'C:/Users/tomek/Desktop/Studia/Podstawy Programowania/Planar_Quadrotor/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-rwd7q3'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_4578f
-        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od  -MDd /showIncludes /FoCMakeFiles\\cmTC_4578f.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_4578f.dir\\ /FS -c "C:\\Users\\tomek\\Desktop\\Studia\\Podstawy Programowania\\tp_projekt_4\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-f75iqg\\CheckIncludeFile.c"
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_13101
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od  -MDd /showIncludes /FoCMakeFiles\\cmTC_13101.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_13101.dir\\ /FS -c "C:\\Users\\tomek\\Desktop\\Studia\\Podstawy Programowania\\Planar_Quadrotor\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-rwd7q3\\CheckIncludeFile.c"
         C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.22621.0\\um\\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_4578f.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_4578f.dir\\CheckIncludeFile.c.obj  /out:cmTC_4578f.exe /implib:cmTC_4578f.lib /pdb:cmTC_4578f.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_13101.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_13101.dir\\CheckIncludeFile.c.obj  /out:cmTC_13101.exe /implib:cmTC_13101.lib /pdb:cmTC_13101.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
         
       exitCode: 0
   -
@@ -644,22 +644,22 @@ events:
     checks:
       - "Looking for dxgi.h"
     directories:
-      source: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/tp_projekt_4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-spbq9a"
-      binary: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/tp_projekt_4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-spbq9a"
+      source: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/Planar_Quadrotor/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-rotzzv"
+      binary: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/Planar_Quadrotor/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-rotzzv"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od "
       CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
-      CMAKE_MODULE_PATH: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/tp_projekt_4/SDL/cmake"
+      CMAKE_MODULE_PATH: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/Planar_Quadrotor/SDL/cmake"
     buildResult:
       variable: "HAVE_DXGI_H"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/tomek/Desktop/Studia/Podstawy Programowania/tp_projekt_4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-spbq9a'
+        Change Dir: 'C:/Users/tomek/Desktop/Studia/Podstawy Programowania/Planar_Quadrotor/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-rotzzv'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_66890
-        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od  -MDd /showIncludes /FoCMakeFiles\\cmTC_66890.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_66890.dir\\ /FS -c "C:\\Users\\tomek\\Desktop\\Studia\\Podstawy Programowania\\tp_projekt_4\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-spbq9a\\CheckIncludeFile.c"
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_66890.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_66890.dir\\CheckIncludeFile.c.obj  /out:cmTC_66890.exe /implib:cmTC_66890.lib /pdb:cmTC_66890.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_af4d4
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od  -MDd /showIncludes /FoCMakeFiles\\cmTC_af4d4.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_af4d4.dir\\ /FS -c "C:\\Users\\tomek\\Desktop\\Studia\\Podstawy Programowania\\Planar_Quadrotor\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-rotzzv\\CheckIncludeFile.c"
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_af4d4.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_af4d4.dir\\CheckIncludeFile.c.obj  /out:cmTC_af4d4.exe /implib:cmTC_af4d4.lib /pdb:cmTC_af4d4.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
         
       exitCode: 0
   -
@@ -671,22 +671,22 @@ events:
     checks:
       - "Performing Test HAVE_XINPUT_H"
     directories:
-      source: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/tp_projekt_4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-dwk4oy"
-      binary: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/tp_projekt_4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-dwk4oy"
+      source: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/Planar_Quadrotor/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-g1xbyg"
+      binary: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/Planar_Quadrotor/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-g1xbyg"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od "
       CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
-      CMAKE_MODULE_PATH: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/tp_projekt_4/SDL/cmake"
+      CMAKE_MODULE_PATH: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/Planar_Quadrotor/SDL/cmake"
     buildResult:
       variable: "HAVE_XINPUT_H"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/tomek/Desktop/Studia/Podstawy Programowania/tp_projekt_4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-dwk4oy'
+        Change Dir: 'C:/Users/tomek/Desktop/Studia/Podstawy Programowania/Planar_Quadrotor/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-g1xbyg'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_7604f
-        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\cl.exe  /nologo -DHAVE_XINPUT_H  /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od  -MDd /showIncludes /FoCMakeFiles\\cmTC_7604f.dir\\src.c.obj /FdCMakeFiles\\cmTC_7604f.dir\\ /FS -c "C:\\Users\\tomek\\Desktop\\Studia\\Podstawy Programowania\\tp_projekt_4\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-dwk4oy\\src.c"
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_7604f.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_7604f.dir\\src.c.obj  /out:cmTC_7604f.exe /implib:cmTC_7604f.lib /pdb:cmTC_7604f.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_eeb06
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\cl.exe  /nologo -DHAVE_XINPUT_H  /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od  -MDd /showIncludes /FoCMakeFiles\\cmTC_eeb06.dir\\src.c.obj /FdCMakeFiles\\cmTC_eeb06.dir\\ /FS -c "C:\\Users\\tomek\\Desktop\\Studia\\Podstawy Programowania\\Planar_Quadrotor\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-g1xbyg\\src.c"
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_eeb06.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_eeb06.dir\\src.c.obj  /out:cmTC_eeb06.exe /implib:cmTC_eeb06.lib /pdb:cmTC_eeb06.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
         
       exitCode: 0
   -
@@ -698,25 +698,25 @@ events:
     checks:
       - "Performing Test HAVE_XINPUT_GAMEPAD_EX"
     directories:
-      source: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/tp_projekt_4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-3nfmcm"
-      binary: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/tp_projekt_4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-3nfmcm"
+      source: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/Planar_Quadrotor/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-7lhj7o"
+      binary: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/Planar_Quadrotor/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-7lhj7o"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od "
       CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
-      CMAKE_MODULE_PATH: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/tp_projekt_4/SDL/cmake"
+      CMAKE_MODULE_PATH: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/Planar_Quadrotor/SDL/cmake"
     buildResult:
       variable: "HAVE_XINPUT_GAMEPAD_EX"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/tomek/Desktop/Studia/Podstawy Programowania/tp_projekt_4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-3nfmcm'
+        Change Dir: 'C:/Users/tomek/Desktop/Studia/Podstawy Programowania/Planar_Quadrotor/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-7lhj7o'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_a0493
-        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\cl.exe  /nologo -DHAVE_XINPUT_GAMEPAD_EX  /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od  -MDd /showIncludes /FoCMakeFiles\\cmTC_a0493.dir\\src.c.obj /FdCMakeFiles\\cmTC_a0493.dir\\ /FS -c "C:\\Users\\tomek\\Desktop\\Studia\\Podstawy Programowania\\tp_projekt_4\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-3nfmcm\\src.c"
-        FAILED: CMakeFiles/cmTC_a0493.dir/src.c.obj 
-        C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\cl.exe  /nologo -DHAVE_XINPUT_GAMEPAD_EX  /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od  -MDd /showIncludes /FoCMakeFiles\\cmTC_a0493.dir\\src.c.obj /FdCMakeFiles\\cmTC_a0493.dir\\ /FS -c "C:\\Users\\tomek\\Desktop\\Studia\\Podstawy Programowania\\tp_projekt_4\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-3nfmcm\\src.c"
-        C:\\Users\\tomek\\Desktop\\Studia\\Podstawy Programowania\\tp_projekt_4\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-3nfmcm\\src.c(4): error C2061: syntax error: identifier 'x1'
-        C:\\Users\\tomek\\Desktop\\Studia\\Podstawy Programowania\\tp_projekt_4\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-3nfmcm\\src.c(4): error C2059: syntax error: ';'
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_ee7e2
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\cl.exe  /nologo -DHAVE_XINPUT_GAMEPAD_EX  /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od  -MDd /showIncludes /FoCMakeFiles\\cmTC_ee7e2.dir\\src.c.obj /FdCMakeFiles\\cmTC_ee7e2.dir\\ /FS -c "C:\\Users\\tomek\\Desktop\\Studia\\Podstawy Programowania\\Planar_Quadrotor\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-7lhj7o\\src.c"
+        FAILED: CMakeFiles/cmTC_ee7e2.dir/src.c.obj 
+        C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\cl.exe  /nologo -DHAVE_XINPUT_GAMEPAD_EX  /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od  -MDd /showIncludes /FoCMakeFiles\\cmTC_ee7e2.dir\\src.c.obj /FdCMakeFiles\\cmTC_ee7e2.dir\\ /FS -c "C:\\Users\\tomek\\Desktop\\Studia\\Podstawy Programowania\\Planar_Quadrotor\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-7lhj7o\\src.c"
+        C:\\Users\\tomek\\Desktop\\Studia\\Podstawy Programowania\\Planar_Quadrotor\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-7lhj7o\\src.c(4): error C2061: syntax error: identifier 'x1'
+        C:\\Users\\tomek\\Desktop\\Studia\\Podstawy Programowania\\Planar_Quadrotor\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-7lhj7o\\src.c(4): error C2059: syntax error: ';'
         ninja: build stopped: subcommand failed.
         
       exitCode: 1
@@ -729,25 +729,25 @@ events:
     checks:
       - "Performing Test HAVE_XINPUT_STATE_EX"
     directories:
-      source: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/tp_projekt_4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-1rhni7"
-      binary: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/tp_projekt_4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-1rhni7"
+      source: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/Planar_Quadrotor/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-g1ok9f"
+      binary: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/Planar_Quadrotor/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-g1ok9f"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od "
       CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
-      CMAKE_MODULE_PATH: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/tp_projekt_4/SDL/cmake"
+      CMAKE_MODULE_PATH: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/Planar_Quadrotor/SDL/cmake"
     buildResult:
       variable: "HAVE_XINPUT_STATE_EX"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/tomek/Desktop/Studia/Podstawy Programowania/tp_projekt_4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-1rhni7'
+        Change Dir: 'C:/Users/tomek/Desktop/Studia/Podstawy Programowania/Planar_Quadrotor/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-g1ok9f'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_57503
-        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\cl.exe  /nologo -DHAVE_XINPUT_STATE_EX  /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od  -MDd /showIncludes /FoCMakeFiles\\cmTC_57503.dir\\src.c.obj /FdCMakeFiles\\cmTC_57503.dir\\ /FS -c "C:\\Users\\tomek\\Desktop\\Studia\\Podstawy Programowania\\tp_projekt_4\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-1rhni7\\src.c"
-        FAILED: CMakeFiles/cmTC_57503.dir/src.c.obj 
-        C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\cl.exe  /nologo -DHAVE_XINPUT_STATE_EX  /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od  -MDd /showIncludes /FoCMakeFiles\\cmTC_57503.dir\\src.c.obj /FdCMakeFiles\\cmTC_57503.dir\\ /FS -c "C:\\Users\\tomek\\Desktop\\Studia\\Podstawy Programowania\\tp_projekt_4\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-1rhni7\\src.c"
-        C:\\Users\\tomek\\Desktop\\Studia\\Podstawy Programowania\\tp_projekt_4\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-1rhni7\\src.c(4): error C2061: syntax error: identifier 's1'
-        C:\\Users\\tomek\\Desktop\\Studia\\Podstawy Programowania\\tp_projekt_4\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-1rhni7\\src.c(4): error C2059: syntax error: ';'
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_75809
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\cl.exe  /nologo -DHAVE_XINPUT_STATE_EX  /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od  -MDd /showIncludes /FoCMakeFiles\\cmTC_75809.dir\\src.c.obj /FdCMakeFiles\\cmTC_75809.dir\\ /FS -c "C:\\Users\\tomek\\Desktop\\Studia\\Podstawy Programowania\\Planar_Quadrotor\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-g1ok9f\\src.c"
+        FAILED: CMakeFiles/cmTC_75809.dir/src.c.obj 
+        C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\cl.exe  /nologo -DHAVE_XINPUT_STATE_EX  /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od  -MDd /showIncludes /FoCMakeFiles\\cmTC_75809.dir\\src.c.obj /FdCMakeFiles\\cmTC_75809.dir\\ /FS -c "C:\\Users\\tomek\\Desktop\\Studia\\Podstawy Programowania\\Planar_Quadrotor\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-g1ok9f\\src.c"
+        C:\\Users\\tomek\\Desktop\\Studia\\Podstawy Programowania\\Planar_Quadrotor\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-g1ok9f\\src.c(4): error C2061: syntax error: identifier 's1'
+        C:\\Users\\tomek\\Desktop\\Studia\\Podstawy Programowania\\Planar_Quadrotor\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-g1ok9f\\src.c(4): error C2059: syntax error: ';'
         ninja: build stopped: subcommand failed.
         
       exitCode: 1
@@ -760,22 +760,22 @@ events:
     checks:
       - "Performing Test HAVE_WINDOWS_GAMING_INPUT_H"
     directories:
-      source: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/tp_projekt_4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-s4k4k0"
-      binary: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/tp_projekt_4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-s4k4k0"
+      source: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/Planar_Quadrotor/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-lxhbmz"
+      binary: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/Planar_Quadrotor/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-lxhbmz"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od "
       CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
-      CMAKE_MODULE_PATH: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/tp_projekt_4/SDL/cmake"
+      CMAKE_MODULE_PATH: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/Planar_Quadrotor/SDL/cmake"
     buildResult:
       variable: "HAVE_WINDOWS_GAMING_INPUT_H"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/tomek/Desktop/Studia/Podstawy Programowania/tp_projekt_4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-s4k4k0'
+        Change Dir: 'C:/Users/tomek/Desktop/Studia/Podstawy Programowania/Planar_Quadrotor/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-lxhbmz'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_22e58
-        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\cl.exe  /nologo -DHAVE_WINDOWS_GAMING_INPUT_H  /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od  -MDd /showIncludes /FoCMakeFiles\\cmTC_22e58.dir\\src.c.obj /FdCMakeFiles\\cmTC_22e58.dir\\ /FS -c "C:\\Users\\tomek\\Desktop\\Studia\\Podstawy Programowania\\tp_projekt_4\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-s4k4k0\\src.c"
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_22e58.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_22e58.dir\\src.c.obj  /out:cmTC_22e58.exe /implib:cmTC_22e58.lib /pdb:cmTC_22e58.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_68d24
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\cl.exe  /nologo -DHAVE_WINDOWS_GAMING_INPUT_H  /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od  -MDd /showIncludes /FoCMakeFiles\\cmTC_68d24.dir\\src.c.obj /FdCMakeFiles\\cmTC_68d24.dir\\ /FS -c "C:\\Users\\tomek\\Desktop\\Studia\\Podstawy Programowania\\Planar_Quadrotor\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-lxhbmz\\src.c"
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_68d24.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_68d24.dir\\src.c.obj  /out:cmTC_68d24.exe /implib:cmTC_68d24.lib /pdb:cmTC_68d24.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
         
       exitCode: 0
   -
@@ -786,22 +786,22 @@ events:
     checks:
       - "Looking for tpcshrd.h"
     directories:
-      source: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/tp_projekt_4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-burz8z"
-      binary: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/tp_projekt_4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-burz8z"
+      source: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/Planar_Quadrotor/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-elp3dp"
+      binary: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/Planar_Quadrotor/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-elp3dp"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od "
       CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
-      CMAKE_MODULE_PATH: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/tp_projekt_4/SDL/cmake"
+      CMAKE_MODULE_PATH: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/Planar_Quadrotor/SDL/cmake"
     buildResult:
       variable: "HAVE_TPCSHRD_H"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/tomek/Desktop/Studia/Podstawy Programowania/tp_projekt_4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-burz8z'
+        Change Dir: 'C:/Users/tomek/Desktop/Studia/Podstawy Programowania/Planar_Quadrotor/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-elp3dp'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_736f9
-        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od  -MDd /showIncludes /FoCMakeFiles\\cmTC_736f9.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_736f9.dir\\ /FS -c "C:\\Users\\tomek\\Desktop\\Studia\\Podstawy Programowania\\tp_projekt_4\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-burz8z\\CheckIncludeFile.c"
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_736f9.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_736f9.dir\\CheckIncludeFile.c.obj  /out:cmTC_736f9.exe /implib:cmTC_736f9.lib /pdb:cmTC_736f9.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_a3675
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od  -MDd /showIncludes /FoCMakeFiles\\cmTC_a3675.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_a3675.dir\\ /FS -c "C:\\Users\\tomek\\Desktop\\Studia\\Podstawy Programowania\\Planar_Quadrotor\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-elp3dp\\CheckIncludeFile.c"
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_a3675.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_a3675.dir\\CheckIncludeFile.c.obj  /out:cmTC_a3675.exe /implib:cmTC_a3675.lib /pdb:cmTC_a3675.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
         
       exitCode: 0
   -
@@ -812,22 +812,22 @@ events:
     checks:
       - "Looking for roapi.h"
     directories:
-      source: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/tp_projekt_4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-i5yiq9"
-      binary: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/tp_projekt_4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-i5yiq9"
+      source: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/Planar_Quadrotor/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-faed7i"
+      binary: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/Planar_Quadrotor/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-faed7i"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od "
       CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
-      CMAKE_MODULE_PATH: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/tp_projekt_4/SDL/cmake"
+      CMAKE_MODULE_PATH: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/Planar_Quadrotor/SDL/cmake"
     buildResult:
       variable: "HAVE_ROAPI_H"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/tomek/Desktop/Studia/Podstawy Programowania/tp_projekt_4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-i5yiq9'
+        Change Dir: 'C:/Users/tomek/Desktop/Studia/Podstawy Programowania/Planar_Quadrotor/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-faed7i'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_020aa
-        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od  -MDd /showIncludes /FoCMakeFiles\\cmTC_020aa.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_020aa.dir\\ /FS -c "C:\\Users\\tomek\\Desktop\\Studia\\Podstawy Programowania\\tp_projekt_4\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-i5yiq9\\CheckIncludeFile.c"
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_020aa.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_020aa.dir\\CheckIncludeFile.c.obj  /out:cmTC_020aa.exe /implib:cmTC_020aa.lib /pdb:cmTC_020aa.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_d669c
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od  -MDd /showIncludes /FoCMakeFiles\\cmTC_d669c.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_d669c.dir\\ /FS -c "C:\\Users\\tomek\\Desktop\\Studia\\Podstawy Programowania\\Planar_Quadrotor\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-faed7i\\CheckIncludeFile.c"
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_d669c.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_d669c.dir\\CheckIncludeFile.c.obj  /out:cmTC_d669c.exe /implib:cmTC_d669c.lib /pdb:cmTC_d669c.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
         
       exitCode: 0
   -
@@ -838,22 +838,22 @@ events:
     checks:
       - "Looking for mmdeviceapi.h"
     directories:
-      source: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/tp_projekt_4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-cvrt48"
-      binary: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/tp_projekt_4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-cvrt48"
+      source: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/Planar_Quadrotor/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-kbvtk1"
+      binary: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/Planar_Quadrotor/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-kbvtk1"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od "
       CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
-      CMAKE_MODULE_PATH: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/tp_projekt_4/SDL/cmake"
+      CMAKE_MODULE_PATH: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/Planar_Quadrotor/SDL/cmake"
     buildResult:
       variable: "HAVE_MMDEVICEAPI_H"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/tomek/Desktop/Studia/Podstawy Programowania/tp_projekt_4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-cvrt48'
+        Change Dir: 'C:/Users/tomek/Desktop/Studia/Podstawy Programowania/Planar_Quadrotor/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-kbvtk1'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_84976
-        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od  -MDd /showIncludes /FoCMakeFiles\\cmTC_84976.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_84976.dir\\ /FS -c "C:\\Users\\tomek\\Desktop\\Studia\\Podstawy Programowania\\tp_projekt_4\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-cvrt48\\CheckIncludeFile.c"
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_84976.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_84976.dir\\CheckIncludeFile.c.obj  /out:cmTC_84976.exe /implib:cmTC_84976.lib /pdb:cmTC_84976.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_ae433
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od  -MDd /showIncludes /FoCMakeFiles\\cmTC_ae433.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_ae433.dir\\ /FS -c "C:\\Users\\tomek\\Desktop\\Studia\\Podstawy Programowania\\Planar_Quadrotor\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-kbvtk1\\CheckIncludeFile.c"
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_ae433.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_ae433.dir\\CheckIncludeFile.c.obj  /out:cmTC_ae433.exe /implib:cmTC_ae433.lib /pdb:cmTC_ae433.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
         
       exitCode: 0
   -
@@ -864,22 +864,22 @@ events:
     checks:
       - "Looking for audioclient.h"
     directories:
-      source: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/tp_projekt_4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-ro24ex"
-      binary: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/tp_projekt_4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-ro24ex"
+      source: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/Planar_Quadrotor/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-ml7gy3"
+      binary: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/Planar_Quadrotor/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-ml7gy3"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od "
       CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
-      CMAKE_MODULE_PATH: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/tp_projekt_4/SDL/cmake"
+      CMAKE_MODULE_PATH: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/Planar_Quadrotor/SDL/cmake"
     buildResult:
       variable: "HAVE_AUDIOCLIENT_H"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/tomek/Desktop/Studia/Podstawy Programowania/tp_projekt_4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-ro24ex'
+        Change Dir: 'C:/Users/tomek/Desktop/Studia/Podstawy Programowania/Planar_Quadrotor/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-ml7gy3'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_dc44f
-        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od  -MDd /showIncludes /FoCMakeFiles\\cmTC_dc44f.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_dc44f.dir\\ /FS -c "C:\\Users\\tomek\\Desktop\\Studia\\Podstawy Programowania\\tp_projekt_4\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-ro24ex\\CheckIncludeFile.c"
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_dc44f.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_dc44f.dir\\CheckIncludeFile.c.obj  /out:cmTC_dc44f.exe /implib:cmTC_dc44f.lib /pdb:cmTC_dc44f.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_5266e
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od  -MDd /showIncludes /FoCMakeFiles\\cmTC_5266e.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_5266e.dir\\ /FS -c "C:\\Users\\tomek\\Desktop\\Studia\\Podstawy Programowania\\Planar_Quadrotor\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-ml7gy3\\CheckIncludeFile.c"
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_5266e.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_5266e.dir\\CheckIncludeFile.c.obj  /out:cmTC_5266e.exe /implib:cmTC_5266e.lib /pdb:cmTC_5266e.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
         
       exitCode: 0
   -
@@ -890,22 +890,22 @@ events:
     checks:
       - "Looking for sensorsapi.h"
     directories:
-      source: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/tp_projekt_4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-5pip0o"
-      binary: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/tp_projekt_4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-5pip0o"
+      source: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/Planar_Quadrotor/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-3lh7sw"
+      binary: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/Planar_Quadrotor/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-3lh7sw"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od "
       CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
-      CMAKE_MODULE_PATH: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/tp_projekt_4/SDL/cmake"
+      CMAKE_MODULE_PATH: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/Planar_Quadrotor/SDL/cmake"
     buildResult:
       variable: "HAVE_SENSORSAPI_H"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/tomek/Desktop/Studia/Podstawy Programowania/tp_projekt_4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-5pip0o'
+        Change Dir: 'C:/Users/tomek/Desktop/Studia/Podstawy Programowania/Planar_Quadrotor/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-3lh7sw'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_3349f
-        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od  -MDd /showIncludes /FoCMakeFiles\\cmTC_3349f.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_3349f.dir\\ /FS -c "C:\\Users\\tomek\\Desktop\\Studia\\Podstawy Programowania\\tp_projekt_4\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-5pip0o\\CheckIncludeFile.c"
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_3349f.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_3349f.dir\\CheckIncludeFile.c.obj  /out:cmTC_3349f.exe /implib:cmTC_3349f.lib /pdb:cmTC_3349f.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_0826f
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od  -MDd /showIncludes /FoCMakeFiles\\cmTC_0826f.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_0826f.dir\\ /FS -c "C:\\Users\\tomek\\Desktop\\Studia\\Podstawy Programowania\\Planar_Quadrotor\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-3lh7sw\\CheckIncludeFile.c"
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_0826f.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_0826f.dir\\CheckIncludeFile.c.obj  /out:cmTC_0826f.exe /implib:cmTC_0826f.lib /pdb:cmTC_0826f.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
         
       exitCode: 0
   -
@@ -916,22 +916,22 @@ events:
     checks:
       - "Looking for shellscalingapi.h"
     directories:
-      source: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/tp_projekt_4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-fic3v6"
-      binary: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/tp_projekt_4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-fic3v6"
+      source: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/Planar_Quadrotor/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-lvlwox"
+      binary: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/Planar_Quadrotor/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-lvlwox"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od "
       CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
-      CMAKE_MODULE_PATH: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/tp_projekt_4/SDL/cmake"
+      CMAKE_MODULE_PATH: "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/Planar_Quadrotor/SDL/cmake"
     buildResult:
       variable: "HAVE_SHELLSCALINGAPI_H"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/tomek/Desktop/Studia/Podstawy Programowania/tp_projekt_4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-fic3v6'
+        Change Dir: 'C:/Users/tomek/Desktop/Studia/Podstawy Programowania/Planar_Quadrotor/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-lvlwox'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_2b08d
-        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od  -MDd /showIncludes /FoCMakeFiles\\cmTC_2b08d.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_2b08d.dir\\ /FS -c "C:\\Users\\tomek\\Desktop\\Studia\\Podstawy Programowania\\tp_projekt_4\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-fic3v6\\CheckIncludeFile.c"
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_2b08d.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_2b08d.dir\\CheckIncludeFile.c.obj  /out:cmTC_2b08d.exe /implib:cmTC_2b08d.lib /pdb:cmTC_2b08d.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_627ec
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od  -MDd /showIncludes /FoCMakeFiles\\cmTC_627ec.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_627ec.dir\\ /FS -c "C:\\Users\\tomek\\Desktop\\Studia\\Podstawy Programowania\\Planar_Quadrotor\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-lvlwox\\CheckIncludeFile.c"
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_627ec.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_627ec.dir\\CheckIncludeFile.c.obj  /out:cmTC_627ec.exe /implib:cmTC_627ec.lib /pdb:cmTC_627ec.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
         
       exitCode: 0
 ...

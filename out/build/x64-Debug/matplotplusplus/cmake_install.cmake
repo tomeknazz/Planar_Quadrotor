@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/tomek/Desktop/Studia/Podstawy Programowania/tp_projekt_4/matplotplusplus
+# Install script for directory: C:/Users/tomek/Desktop/Studia/Podstawy Programowania/Planar_Quadrotor/matplotplusplus
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/tp_projekt_4/out/install/x64-Debug")
+  set(CMAKE_INSTALL_PREFIX "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/Planar_Quadrotor/out/install/x64-Debug")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -34,6 +34,6 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/tomek/Desktop/Studia/Podstawy Programowania/tp_projekt_4/out/build/x64-Debug/matplotplusplus/source/cmake_install.cmake")
+  include("C:/Users/tomek/Desktop/Studia/Podstawy Programowania/Planar_Quadrotor/out/build/x64-Debug/matplotplusplus/source/cmake_install.cmake")
 endif()
 

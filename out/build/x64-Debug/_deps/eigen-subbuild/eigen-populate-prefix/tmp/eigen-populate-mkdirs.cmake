@@ -4,19 +4,19 @@
 cmake_minimum_required(VERSION 3.5)
 
 file(MAKE_DIRECTORY
-  "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/tp_projekt_4/out/build/x64-Debug/_deps/eigen-src"
-  "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/tp_projekt_4/out/build/x64-Debug/_deps/eigen-build"
-  "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/tp_projekt_4/out/build/x64-Debug/_deps/eigen-subbuild/eigen-populate-prefix"
-  "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/tp_projekt_4/out/build/x64-Debug/_deps/eigen-subbuild/eigen-populate-prefix/tmp"
-  "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/tp_projekt_4/out/build/x64-Debug/_deps/eigen-subbuild/eigen-populate-prefix/src/eigen-populate-stamp"
-  "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/tp_projekt_4/out/build/x64-Debug/_deps/eigen-subbuild/eigen-populate-prefix/src"
-  "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/tp_projekt_4/out/build/x64-Debug/_deps/eigen-subbuild/eigen-populate-prefix/src/eigen-populate-stamp"
+  "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/Planar_Quadrotor/out/build/x64-Debug/_deps/eigen-src"
+  "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/Planar_Quadrotor/out/build/x64-Debug/_deps/eigen-build"
+  "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/Planar_Quadrotor/out/build/x64-Debug/_deps/eigen-subbuild/eigen-populate-prefix"
+  "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/Planar_Quadrotor/out/build/x64-Debug/_deps/eigen-subbuild/eigen-populate-prefix/tmp"
+  "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/Planar_Quadrotor/out/build/x64-Debug/_deps/eigen-subbuild/eigen-populate-prefix/src/eigen-populate-stamp"
+  "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/Planar_Quadrotor/out/build/x64-Debug/_deps/eigen-subbuild/eigen-populate-prefix/src"
+  "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/Planar_Quadrotor/out/build/x64-Debug/_deps/eigen-subbuild/eigen-populate-prefix/src/eigen-populate-stamp"
 )
 
 set(configSubDirs )
 foreach(subDir IN LISTS configSubDirs)
-    file(MAKE_DIRECTORY "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/tp_projekt_4/out/build/x64-Debug/_deps/eigen-subbuild/eigen-populate-prefix/src/eigen-populate-stamp/${subDir}")
+    file(MAKE_DIRECTORY "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/Planar_Quadrotor/out/build/x64-Debug/_deps/eigen-subbuild/eigen-populate-prefix/src/eigen-populate-stamp/${subDir}")
 endforeach()
 if(cfgdir)
-  file(MAKE_DIRECTORY "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/tp_projekt_4/out/build/x64-Debug/_deps/eigen-subbuild/eigen-populate-prefix/src/eigen-populate-stamp${cfgdir}") # cfgdir has leading slash
+  file(MAKE_DIRECTORY "C:/Users/tomek/Desktop/Studia/Podstawy Programowania/Planar_Quadrotor/out/build/x64-Debug/_deps/eigen-subbuild/eigen-populate-prefix/src/eigen-populate-stamp${cfgdir}") # cfgdir has leading slash
 endif()
