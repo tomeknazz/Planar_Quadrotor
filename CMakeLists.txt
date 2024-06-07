@@ -7,7 +7,6 @@ include(cmake/CPM.cmake)
 add_subdirectory(matplotplusplus)
 add_subdirectory(SDL)
 add_subdirectory(SDL2_gfx)
-
 set(CMAKE_MODULE_PATH "${PROJECT_SOURCE_DIR}")
 
 CPMAddPackage(
@@ -23,8 +22,8 @@ if(Eigen_ADDED)
   target_include_directories(Eigen INTERFACE ${Eigen_SOURCE_DIR})
 endif()
 
-set(PLANAR_QUADROTOR_SOURCES PlanarQuadrotor/simulate.cpp PlanarQuadrotor/planar_quadrotor.cpp PlanarQuadrotor/planar_quadrotor_visualizer.cpp PlanarQuadrotor/lqr.cpp)
-add_executable(planar_quadrotor ${PLANAR_QUADROTOR_SOURCES})
+set(PLANAR_QUADROTOR_SOURCES PlanarQuadrotor/simulate.cpp PlanarQuadrotor/planar_quadrotor.cpp PlanarQuadrotor/planar_quadrotor_visualizer.cpp PlanarQuadrotor/lqr.cpp PlanarQuadrotor/sound.cpp)
+add_executable(planar_quadrotor ${PLANAR_QUADROTOR_SOURCES} "PlanarQuadrotor/sound.cpp" "PlanarQuadrotor/sound.h")
 if(TARGET SDL2::SDL2main)
     # It has an implicit dependency on SDL2 functions, so it MUST be added before SDL2::SDL2 (or SDL2::SDL2-static)
     target_link_libraries(planar_quadrotor SDL2::SDL2main)

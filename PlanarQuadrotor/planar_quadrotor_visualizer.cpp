@@ -15,7 +15,7 @@ void PlanarQuadrotorVisualizer::render(std::shared_ptr<SDL_Renderer>& gRenderer)
     //wyśrdokowywanie
     q_x = state[0];
     q_y = state[1];
-    q_theta = state[2];
+    q_theta = state[2]/2;
     float scale = 10.0f;
     int x = static_cast<int>(640 + q_x * scale); 
     int y = static_cast<int>(360 - q_y * scale); 
@@ -45,7 +45,7 @@ void PlanarQuadrotorVisualizer::render(std::shared_ptr<SDL_Renderer>& gRenderer)
     auto now = chrono::system_clock::now();
     auto duration = now.time_since_epoch();
     double millis = chrono::duration_cast<chrono::milliseconds>(duration).count();
-    double angle = millis / 50.0;
+    double angle = millis / 25.0;
 
     int propeller1_x = static_cast<int>(x + propeller_offset * cos(angle));
     int propeller1_y = y - 20;

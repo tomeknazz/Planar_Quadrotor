@@ -1,4 +1,5 @@
 #include "simulate.h"
+#include "sound.h"
 
 Eigen::Vector2f transformCoordinates(int screenX, int screenY, int screenWidth, int screenHeight) {
     float worldX = 10.0f * (screenX - screenWidth / 2.0f) / screenWidth;
@@ -17,9 +18,9 @@ Eigen::MatrixXf LQR(PlanarQuadrotor& quadrotor, float dt) {
     Eigen::MatrixXf K = Eigen::MatrixXf::Zero(6, 6);
     Eigen::Vector2f input = quadrotor.GravityCompInput();
 
-    Q.diagonal() << 10, 10, 10, 1, 10, 0.25 / 2 / M_PI;
-    R.row(0) << 0.1, 0.05;
-    R.row(1) << 0.05, 0.1;
+    Q.diagonal() << 1, 10, 0, 0, 1,1 / M_PI;
+    R.row(0) << 30, 7;
+    R.row(1) << 7, 30;
 
     std::tie(A, B) = quadrotor.Linearize();
     A_discrete = Eye + dt * A;
@@ -39,6 +40,12 @@ int main(int argc, char* args[])
     std::shared_ptr<SDL_Renderer> gRenderer = nullptr;
     const int SCREEN_WIDTH = 1280;
     const int SCREEN_HEIGHT = 720;
+
+    Sound sound("Drone.wav");
+    sound.Tool();
+    sound.Go();
+    
+
 
     Eigen::VectorXf initial_state = Eigen::VectorXf::Zero(6);
     PlanarQuadrotor quadrotor(initial_state);
@@ -93,6 +100,7 @@ int main(int argc, char* args[])
         }
     }
     SDL_Quit();
+    sound.End();
     return 0;
 }
 
