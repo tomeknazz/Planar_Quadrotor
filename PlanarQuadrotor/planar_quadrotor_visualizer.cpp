@@ -25,7 +25,7 @@ void PlanarQuadrotorVisualizer::render(std::shared_ptr<SDL_Renderer>& gRenderer)
     // Wyśrodkowanie
     q_x = state[0];
     q_y = state[1];
-    q_theta = state[2];
+    q_theta = state[2]/2;
     float scale = 10.0f;
     int x = static_cast<int>(640 + q_x * scale);
     int y = static_cast<int>(360 - q_y * scale);
