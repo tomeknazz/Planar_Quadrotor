@@ -31,7 +31,9 @@ void PlanarQuadrotorVisualizer::render(std::shared_ptr<SDL_Renderer>& gRenderer)
     int y = static_cast<int>(360 - q_y * scale);
     
     SDL_Texture* body_texture = SDL_CreateTexture(gRenderer.get(), SDL_PIXELFORMAT_RGBA8888, SDL_TEXTUREACCESS_STATIC, 1, 1);
-    SDL_SetTextureColorMod(body_texture, 76, 55, 49);
+    Uint32 pixel = 0xFFFFF9FF; // White-ish color
+    SDL_UpdateTexture(body_texture, nullptr, &pixel, sizeof(pixel));
+    SDL_SetTextureColorMod(body_texture, 100, 100, 150);
 
    
     int body_width = 120;
