@@ -22,7 +22,7 @@ void write_history(std::vector<float>& x_history, std::vector<float>& y_history,
 	Eigen::VectorXf state = quadrotor.GetState();
 	x_history.push_back(state[0]);
 	y_history.push_back(state[1]);
-	theta_history.push_back(state[2]);
+	theta_history.push_back(state[2]/2);
 }
 
 void PlanarQuadrotorVisualizer::render(std::shared_ptr<SDL_Renderer>& gRenderer) {
