@@ -1,8 +1,10 @@
 #include "simulate.h"
 #include "sound.h"
+#include "matplot/util/common.h"
+#include "matplot/matplot.h"
 
-Eigen::Vector2f transformCoordinates(int screenX, int screenY, int screenWidth, int screenHeight) {
-    float worldX = 10.0f * (screenX - screenWidth / 2.0f) / screenWidth;
+Eigen::Vector2f transformCoordinates(const int screenX, const int screenY, const int screenWidth, const int screenHeight) {
+	const float worldX = 10.0f * (screenX - screenWidth / 2.0f) / screenWidth;
     float worldY = -10.0f * (screenY - screenHeight / 2.0f) / screenHeight;
     return Eigen::Vector2f(worldX, worldY);
 }
@@ -38,8 +40,8 @@ int main(int argc, char* args[])
 {
     std::shared_ptr<SDL_Window> gWindow = nullptr;
     std::shared_ptr<SDL_Renderer> gRenderer = nullptr;
-    const int SCREEN_WIDTH = 1280;
-    const int SCREEN_HEIGHT = 720;
+    constexpr int SCREEN_WIDTH = 1280;
+    constexpr int SCREEN_HEIGHT = 720;
 
     Sound sound("Drone.wav");
     sound.Tool();
@@ -53,18 +55,18 @@ int main(int argc, char* args[])
     Eigen::VectorXf goal_state = Eigen::VectorXf::Zero(6);
     goal_state << 0, 0, 0, 0, 0, 0;
     quadrotor.SetGoal(goal_state);
-    const float dt = 0.001;
+    constexpr float dt = 0.001;
     Eigen::MatrixXf K = LQR(quadrotor, dt);
     Eigen::Vector2f input = Eigen::Vector2f::Zero(2);
-    std::vector<float> x_history;
-    std::vector<float> y_history;
-    std::vector<float> theta_history;
 
     if (init(gWindow, gRenderer, SCREEN_WIDTH, SCREEN_HEIGHT) >= 0)
     {
-        SDL_Event e;
+	    std::vector<float> theta_history;
+	    std::vector<float> y_history;
+	    std::vector<float> x_history;
+	    SDL_Event e;
         bool quit = false;
-        int x, y;
+        int x, y,count=0;
         Eigen::VectorXf state = Eigen::VectorXf::Zero(6);
 
         while (!quit)
@@ -88,8 +90,14 @@ int main(int argc, char* args[])
                     SDL_GetMouseState(&x, &y);
                     std::cout << "Mouse position: (" << x << ", " << y << ")" << std::endl;
                 }
+                else if(e.type == SDL_KEYDOWN && e.key.keysym.sym == SDLK_q)
+                {
+                    matplot::figure();
+                	matplot::plot(theta_history);
+                }
             }
-
+            write_history(x_history, y_history, theta_history, quadrotor);
+            count++;
             SDL_Delay((int)(dt * 1000));
             SDL_SetRenderDrawColor(gRenderer.get(), 0xFF, 0xFF, 0xFF, 0xFF);
             SDL_RenderClear(gRenderer.get());

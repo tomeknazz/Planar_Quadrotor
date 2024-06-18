@@ -14,5 +14,5 @@ private:
     PlanarQuadrotor* quadrotor_ptr;
     void rotatePoint(float& x, float& y, float cx, float cy, float theta); 
 };
-
+void write_history(std::vector<float>& x_history, std::vector<float>& y_history, std::vector<float>& theta_history, PlanarQuadrotor& quadrotor);
 #endif

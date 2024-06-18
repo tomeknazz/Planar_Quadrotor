@@ -10,10 +10,10 @@ Sound::Sound(std::string path) {
         return;
     }
 
-    std::string fullPath = path; // Adjust path if necessary
+    const std::string fullPath = path; // Adjust path if necessary
 
     // Check if file exists
-    std::ifstream file(fullPath);
+    const std::ifstream file(fullPath);
     if (!file) {
         std::cerr << "WAV file not found: " << fullPath << std::endl;
         return;
@@ -56,7 +56,7 @@ void Sound::Tool() {
 void Sound::Go() {
     if (dev != 0) {
         std::cout << "Queuing audio buffer of length: " << audio_len << std::endl;
-        int status = SDL_QueueAudio(dev, audio_buf, audio_len);
+        const int status = SDL_QueueAudio(dev, audio_buf, audio_len);
         if (status < 0) {
             std::cerr << "Failed to queue audio: " << SDL_GetError() << std::endl;
         }
@@ -65,7 +65,7 @@ void Sound::Go() {
             SDL_PauseAudioDevice(dev, 0);
 
             // Check the device status after starting playback
-            SDL_AudioStatus audioStatus = SDL_GetAudioDeviceStatus(dev);
+            const SDL_AudioStatus audioStatus = SDL_GetAudioDeviceStatus(dev);
             if (audioStatus == SDL_AUDIO_PLAYING) {
                 std::cout << "Audio is playing." << std::endl;
             }
