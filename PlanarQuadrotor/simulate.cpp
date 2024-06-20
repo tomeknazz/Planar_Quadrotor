@@ -4,13 +4,13 @@
 #include "matplot/matplot.h"
 
 Eigen::Vector2f transformCoordinates(const int screenX, const int screenY, const int screenWidth, const int screenHeight) {
-	const float worldX = 12.0f * (screenX - screenWidth / 2.0f) / screenWidth;
-    float worldY = -12.0f * (screenY - screenHeight / 2.0f) / screenHeight;
+	const float worldX = 12.0f * (screenX - screenWidth / 2.0) / screenWidth;
+	const float worldY = -12.0f * (screenY - screenHeight / 2.0) / screenHeight;
     return Eigen::Vector2f(worldX, worldY);
 }
 
 Eigen::MatrixXf LQR(PlanarQuadrotor& quadrotor, float dt) {
-    Eigen::MatrixXf Eye = Eigen::MatrixXf::Identity(6, 6);
+	const Eigen::MatrixXf Eye = Eigen::MatrixXf::Identity(6, 6);
     Eigen::MatrixXf A = Eigen::MatrixXf::Zero(6, 6);
     Eigen::MatrixXf A_discrete = Eigen::MatrixXf::Zero(6, 6);
     Eigen::MatrixXf B(6, 2);
@@ -32,7 +32,7 @@ Eigen::MatrixXf LQR(PlanarQuadrotor& quadrotor, float dt) {
 }
 
 void control(PlanarQuadrotor& quadrotor, const Eigen::MatrixXf& K) {
-    Eigen::Vector2f input = quadrotor.GravityCompInput();
+	const Eigen::Vector2f input = quadrotor.GravityCompInput();
     quadrotor.SetInput(input - K * quadrotor.GetControlState());
 }
 
