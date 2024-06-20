@@ -38,10 +38,12 @@ void PlanarQuadrotorVisualizer::render(std::shared_ptr<SDL_Renderer>& gRenderer)
 	const int y = static_cast<int>(360 - q_y * scale);
 
 	SDL_Texture* body_texture = SDL_CreateTexture(gRenderer.get(), SDL_PIXELFORMAT_RGBA8888, SDL_TEXTUREACCESS_STATIC, 1, 1);
-	constexpr Uint32 pixel = 0xFFFFF9FF; // White-ish color
+	SDL_Texture* body_texture1 = SDL_CreateTexture(gRenderer.get(), SDL_PIXELFORMAT_RGBA8888, SDL_TEXTUREACCESS_STATIC, 1, 1);
+	constexpr Uint32 pixel = 0xFFFFFFFF; // White color
 	SDL_UpdateTexture(body_texture, nullptr, &pixel, sizeof(pixel));
+	SDL_UpdateTexture(body_texture1, nullptr, &pixel, sizeof(pixel));
 	SDL_SetTextureColorMod(body_texture, 100, 100, 150);
-
+	SDL_SetTextureColorMod(body_texture1, 20, 20, 50);
 
 	constexpr int body_width = 120;
 	constexpr int body_height = 20;
@@ -90,6 +92,6 @@ void PlanarQuadrotorVisualizer::render(std::shared_ptr<SDL_Renderer>& gRenderer)
 	const SDL_Rect wing1_rect = { static_cast<int>(propeller1_x), static_cast<int>(propeller1_y), propeller_width, propeller_height };
 	const SDL_Rect wing2_rect = { static_cast<int>(propeller2_x), static_cast<int>(propeller2_y), propeller_width, propeller_height };
 
-	SDL_RenderCopyEx(gRenderer.get(), body_texture, nullptr, &wing1_rect, -q_theta * (180 / M_PI), nullptr, SDL_FLIP_NONE);
-	SDL_RenderCopyEx(gRenderer.get(), body_texture, nullptr, &wing2_rect, -q_theta * (180 / M_PI), nullptr, SDL_FLIP_NONE);
+	SDL_RenderCopyEx(gRenderer.get(), body_texture1, nullptr, &wing1_rect, -q_theta * (180 / M_PI), nullptr, SDL_FLIP_NONE);
+	SDL_RenderCopyEx(gRenderer.get(), body_texture1, nullptr, &wing2_rect, -q_theta * (180 / M_PI), nullptr, SDL_FLIP_NONE);
 }

@@ -66,7 +66,7 @@ int main(int argc, char* args[])
 	    std::vector<float> x_history;
 	    SDL_Event e;
         bool quit = false;
-        int x, y,count=0;
+        int x, y;
         Eigen::VectorXf state = Eigen::VectorXf::Zero(6);
 
         while (!quit)
@@ -83,22 +83,31 @@ int main(int argc, char* args[])
                     Eigen::Vector2f goal = transformCoordinates(x, y, SCREEN_WIDTH, SCREEN_HEIGHT);
                     goal_state << goal.x(), goal.y(), 0, 0, 0, 0;
                     quadrotor.SetGoal(goal_state);
-                    std::cout << "Goal state set to: (" << goal_state.x() << ", " << goal_state.y() << ")" << std::endl;
+                    std::cout << "Goal state set to: (" << goal_state.x() << ", " << goal_state.y() << ")" << '\n';
                 }
                 else if (e.type == SDL_MOUSEMOTION)
                 {
                     SDL_GetMouseState(&x, &y);
-                    std::cout << "Mouse position: (" << x << ", " << y << ")" << std::endl;
+                    std::cout << "Mouse position: (" << x << ", " << y << ")" << '\n';
                 }
                 else if(e.type == SDL_KEYDOWN && e.key.keysym.sym == SDLK_q)
                 {
-                    matplot::figure();
-                	matplot::plot(theta_history);
+                    using namespace matplot;
+                    hold(on);
+                    plot(x_history);
+                    plot(y_history);
+                	plot(theta_history);
+                    title("Quadrotor position");
+                    xlabel("Time");
+                    ylabel("Value");
+                    legend({"x", "y", "theta"});
+                    hold(off);
+                    show();
+
                 }
             }
             write_history(x_history, y_history, theta_history, quadrotor);
-            count++;
-            SDL_Delay((int)(dt * 1000));
+            SDL_Delay(static_cast<int>(dt * 1000));
             SDL_SetRenderDrawColor(gRenderer.get(), 0xFF, 0xFF, 0xFF, 0xFF);
             SDL_RenderClear(gRenderer.get());
             quadrotor_visualizer.render(gRenderer);
@@ -123,7 +132,7 @@ int init(std::shared_ptr<SDL_Window>& gWindow, std::shared_ptr<SDL_Renderer>& gR
     }
     else
     {
-        std::cout << "SDL_ERROR: " << SDL_GetError() << std::endl;
+        std::cout << "SDL_ERROR: " << SDL_GetError() << '\n';
         return -1;
     }
     return 0;
