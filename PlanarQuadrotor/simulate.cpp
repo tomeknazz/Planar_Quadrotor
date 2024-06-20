@@ -4,8 +4,8 @@
 #include "matplot/matplot.h"
 
 Eigen::Vector2f transformCoordinates(const int screenX, const int screenY, const int screenWidth, const int screenHeight) {
-	const float worldX = 10.0f * (screenX - screenWidth / 2.0f) / screenWidth;
-    float worldY = -10.0f * (screenY - screenHeight / 2.0f) / screenHeight;
+	const float worldX = 12.0f * (screenX - screenWidth / 2.0f) / screenWidth;
+    float worldY = -12.0f * (screenY - screenHeight / 2.0f) / screenHeight;
     return Eigen::Vector2f(worldX, worldY);
 }
 
